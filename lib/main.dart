@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
+import 'package:flutter_driver/driver_extension.dart';
 
 void main() {
+  enableFlutterDriverExtension();
   runApp(const SelectionDemoApp());
 }
 
 class SelectionDemoApp extends StatelessWidget {
-  const SelectionDemoApp({Key? key}) : super(key: key);
+  const SelectionDemoApp({super.key});
 
   @override
   Widget build(BuildContext context) {

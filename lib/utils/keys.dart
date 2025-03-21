@@ -31,4 +31,8 @@ class AppKeys {
   static const toggleSelectionScreen = Key('toggle_selection_screen');
   static const toggleSwitch = Key('toggle_switch');
   static const toggleStatus = Key('toggle_status');
+
+  //calendar
+   static const homeScreenSearchField = Key('homeScreenSearchField');
+  static const homeScreenSearchIcon = Key('homeScreenSearchIcon');
 }
